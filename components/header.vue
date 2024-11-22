@@ -4,6 +4,7 @@
     <nav>
       <NuxtLink to="/">Start</NuxtLink>
       <NuxtLink to="/ressources">Ressources</NuxtLink>
+      <NuxtLink to="/greetings">Greetings</NuxtLink>
     </nav>
   </header>
 </template>
