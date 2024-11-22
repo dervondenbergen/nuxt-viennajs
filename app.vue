@@ -10,7 +10,15 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute();
+
+useHead({
+  titleTemplate: (pageTitle) => {
+    return pageTitle
+      ? `${pageTitle} - ViennaJS`
+      : 'ViennaJS';
+  },
+});
 </script>
 
 <style>

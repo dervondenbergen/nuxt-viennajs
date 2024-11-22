@@ -18,6 +18,10 @@ const ressources = [
     link: "https://github.com/nuxt/nuxt",
   },
 ];
+
+useHead({
+  title: "Good Ressources",
+});
 </script>
 
 <style scoped>

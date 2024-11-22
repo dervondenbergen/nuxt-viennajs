@@ -13,4 +13,14 @@ const {
   data,
   refresh,
 } = await useFetch("/api/greetings");
+
+const title = computed(() => {
+  return data.value?.greeting
+    ? data.value.greeting
+    : "Greetings";
+});
+
+useHead({
+  title: title,
+});
 </script>
