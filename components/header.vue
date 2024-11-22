@@ -1,6 +1,10 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
+    <nav>
+      <NuxtLink to="/">Start</NuxtLink>
+      <NuxtLink to="/ressources">Ressources</NuxtLink>
+    </nav>
   </header>
 </template>
 
@@ -20,5 +24,18 @@ header {
 
 h1 {
   font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+a {
+  color: white;
+}
+a.router-link-active {
+  font-style: italic;
 }
 </style>

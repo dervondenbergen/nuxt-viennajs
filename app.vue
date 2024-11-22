@@ -2,11 +2,16 @@
   <div>
     <Header title="ViennaJS 27.11." />
     <main>
-      <p>Hello from the Demo</p>
+      <NuxtPage />
+      <pre>Current Route: {{ route.path }}</pre>
     </main>
     <Footer :year="2024" />
   </div>
 </template>
+
+<script setup lang="ts">
+const route = useRoute()
+</script>
 
 <style>
 * {
@@ -19,5 +24,12 @@
 main {
   padding: 1rem;
   min-height: 10rem;
+}
+
+pre {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: monospace;
+  background: lightgrey;
 }
 </style>
