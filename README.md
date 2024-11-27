@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# nuxt-viennajs
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Talk about Nuxt from ViennaJS November 2024.
 
-## Setup
+## Demo
 
-Make sure to install dependencies:
+To check out the steps from the demo simly view the Git tags `example_01` through `example_05`.
 
-```bash
-# npm
-npm install
+## Links from the Talks
 
-# pnpm
-pnpm install
+### Nuxt
 
-# yarn
-yarn install
+* Official Docs and Guides: [nuxt.com](https://nuxt.com/)
+* Alexander Lichter on YouTube: [youtube.com/@TheAlexLichter](https://www.youtube.com/@TheAlexLichter)
+* Nuxt Nation: [nuxtnation.com](https://nuxtnation.com/)
+* Discord Community: [discord.com/invite/nuxt](https://discord.com/invite/nuxt)
 
-# bun
-bun install
-```
+### Mentioned Issues
 
-## Development Server
+* https://github.com/nuxt/nuxt/issues/25678
+* https://github.com/nitrojs/nitro/issues/1700
+* https://github.com/unjs/h3/issues/603
 
-Start the development server on `http://localhost:3000`:
+### Social Links
 
-```bash
-# npm
-npm run dev
+#### Felix De Montis
 
-# pnpm
-pnpm dev
+* Website: [f.dm](https://f.dm)
+* Twitter: [@DerVonDenBergen](https://twitter.com/DerVonDenBergen)
+* Bluesky: [felix.wien](https://bsky.app/profile/felix.wien)
+* Mastodon: [@dervondenbergen@mastodon.social](https://mastodon.social/@dervondenbergen)
 
-# yarn
-yarn dev
+#### ORF Online Devs
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* Website: [dev.orf.at](https://dev.orf.at)
+* Twitter: [@devORFat](https://twitter.com/devORFat)
+* Bluesky: [dev.orf.at](https://bsky.app/profile/dev.orf.at)
+* Mastodon: [@devORFat@mastodon.social](https://mastodon.social/@devORFat)
