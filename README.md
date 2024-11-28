@@ -42,3 +42,12 @@ To check out the steps from the demo simly view the Git tags `example_01` throug
 ### 1. Does Nuxt support parameters in routes/pages like Next.js?
 
 Nuxt also supports parameters in pages, multiple in the same page, wildcard or even optional parameters. All information can be found here: https://nuxt.com/docs/guide/directory-structure/pages#dynamic-routes
+
+### 2. Does Nuxt support type safety with pages?
+
+Currently there are only runtime errors, when using the object syntax for `<NuxtLink />`s and using a route name, which doesn't exist.
+
+However, there exists an experimental feature called `typedPages` which can be enabled to get type safety with all routes. This adds also type safe route parameters. More info here:
+
+* https://nuxt.com/docs/guide/going-further/experimental-features#typedpages
+* https://www.youtube.com/watch?v=SXk-L19gTZk

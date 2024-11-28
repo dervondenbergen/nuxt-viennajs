@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-const thing = useRoute().params.thing;
+const thing = useRoute("dynamic-route-thing").params.thing;
 </script>
 
 <style scoped>

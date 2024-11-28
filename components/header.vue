@@ -6,6 +6,8 @@
       <NuxtLink to="/ressources">Ressources</NuxtLink>
       <NuxtLink to="/greetings">Greetings</NuxtLink>
       <NuxtLink to="/dynamic-route/question">Question 1: Dynamic Routes</NuxtLink>
+      <!-- <NuxtLink :to="{name: 'broken'}">Question 2: Broken Link</NuxtLink> -->
+      <!-- Comment out line above to get runtime error and see type error in your editor. -->
     </nav>
   </header>
 </template>
