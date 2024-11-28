@@ -6,7 +6,7 @@ Talk about Nuxt from ViennaJS November 2024.
 
 To check out the steps from the demo simly view the Git tags `example_01` through `example_05`.
 
-## Links from the Talks
+## Links from the Talk
 
 ### Nuxt
 
@@ -36,3 +36,9 @@ To check out the steps from the demo simly view the Git tags `example_01` throug
 * Twitter: [@devORFat](https://twitter.com/devORFat)
 * Bluesky: [dev.orf.at](https://bsky.app/profile/dev.orf.at)
 * Mastodon: [@devORFat@mastodon.social](https://mastodon.social/@devORFat)
+
+## Questions after the Talk
+
+### 1. Does Nuxt support parameters in routes/pages like Next.js?
+
+Nuxt also supports parameters in pages, multiple in the same page, wildcard or even optional parameters. All information can be found here: https://nuxt.com/docs/guide/directory-structure/pages#dynamic-routes

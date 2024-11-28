@@ -5,6 +5,7 @@
       <NuxtLink to="/">Start</NuxtLink>
       <NuxtLink to="/ressources">Ressources</NuxtLink>
       <NuxtLink to="/greetings">Greetings</NuxtLink>
+      <NuxtLink to="/dynamic-route/question">Question 1: Dynamic Routes</NuxtLink>
     </nav>
   </header>
 </template>
